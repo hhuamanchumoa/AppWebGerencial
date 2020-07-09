@@ -1,0 +1,5 @@
+export { default as Navbar } from './Navbar'
+export { default as Content } from './Content'
+export { default as SideBar } from './SideBar'
+export { default as Breadcumbs } from './Breadcumbs'
+export { default as Main } from './Main'
