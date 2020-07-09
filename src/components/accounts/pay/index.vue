@@ -312,7 +312,7 @@ export default {
   methods: {
     fetchDataAccountExpired() {
       let self = this;
-      axios.get('http://localhost:56140/dashboardPay/accountExpired/')
+      axios.get('http://104.248.8.139/dashboardPay/accountExpired/')
       .then(response => {
       self.data_1 = response.data
       var DataX_1 = []
@@ -328,7 +328,7 @@ export default {
     },
     fetchDataAccountToPay() {
       let self = this;
-      axios.get('http://localhost:56140/dashboardPay/accountToPay/')
+      axios.get('http://104.248.8.139/dashboardPay/accountToPay/')
       .then(response => {
       self.data_2 = response.data
       var DataX_2 = []

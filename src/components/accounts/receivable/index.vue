@@ -378,7 +378,7 @@ export default {
   methods: {
     fetchDataAccountExpired() {
       let self = this;
-      axios.get('http://localhost:56140/dashboardReceivable/accountExpired/')
+      axios.get('http://104.248.8.139/dashboardReceivable/accountExpired/')
       .then(response => {
       self.data_1 = response.data
       var DataX_1 = []
@@ -394,7 +394,7 @@ export default {
     },
     fetchDataAccountToPay() {
       let self = this;
-      axios.get('http://localhost:56140/dashboardReceivable/accountToPay/')
+      axios.get('http://104.248.8.139/dashboardReceivable/accountToPay/')
       .then(response => {
       self.data_2 = response.data
       var DataX_2 = []
@@ -410,7 +410,7 @@ export default {
     },
     fetchDataAccountIndefinite() {
       let self = this;
-      axios.get('http://localhost:56140/dashboardReceivable/accountIndefinite/')
+      axios.get('http://104.248.8.139/dashboardReceivable/accountIndefinite/')
       .then(response => {
       self.data_3 = response.data
       var DataX_3 = []

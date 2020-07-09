@@ -7,7 +7,7 @@ import accountsReceivableService from '../services/AccountsReceivableService'
 import accountsPayService from '../services/AccountsPayService'
 import userService from '../services/UserService'
 
-let apiUrl = 'http://localhost:56140/'
+let apiUrl = 'http://104.248.8.139/'
 // let apiUrl_Prod = 'http://104.248.8.139/'
 // Axios Configuration
 Axios.defaults.headers.common.Accept = 'application/json'
